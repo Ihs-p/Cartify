@@ -1,0 +1,87 @@
+.header {
+    background-color: #030428;
+    /* padding: 1rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+  }
+
+
+
+  
+  .logo  {
+  color: white;
+  text-decoration: none;
+  
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav li {
+    margin-right: 50px;
+  }
+
+  .nav li i{
+    font-size: 20px  ;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #f8f3f3;
+  }
+  
+  /* .search-bar {
+    display: flex;
+    align-items: center;
+  } */
+  
+  
+.badge:after{
+    content:attr(value);
+    font-size:10px;
+    color: #fff;
+    background: rgb(48, 191, 243);
+    border-radius:50%;
+    padding: 5px  5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+
+    opacity:0.9;
+} 
+
+/* 
+.active-link {
+  color: blue;
+} */
+
+.fa-solid.fa-cart-shopping.active { 
+  color: aqua;
+   /* original color of the cart icon */
+ }
+
+ .active-link .fa-solid.fa-cart-shopping {
+  color: blue; 
+   /* change the cart icon color to blue on active */
+ } 
+
+
+li .active{
+  color: aqua;
+}
+
+
+/* li .fa.badge.fa-lg.active{
+  color: aqua;
+} */

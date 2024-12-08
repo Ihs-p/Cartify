@@ -1,0 +1,27 @@
+.no-cart{
+    background-color: aliceblue;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.added-success{
+    background-color: #ffffff;
+    width:fit-content;
+    border-radius: 10px;
+}
+
+
+.price-total{
+    display: flex;
+   background-color: #ffffff; 
+    justify-content: right;
+    width: fit-content;
+    border-radius: 10px;
+}
+

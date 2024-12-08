@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  /* .hero-section {
+    background: url('https://images.pexels.com/photos/1181625/pexels-photo-1181625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+  } */
+  .hero-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .hero-section p {
+    font-size: 1.2rem;
+  }
+  .about-content {
+    padding: 60px 0;
+  }
+  .values-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  .values-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .value-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .value-card h5 {
+    margin-top: 15px;
+  }
+  .value-card p {
+    color: #6c757d;
+  }
+  .team-section {
+    padding: 60px 0;
+  }
+  .team-member {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  .team-member h5 {
+    margin-top: 10px;
+  }
+  .team-member p {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }

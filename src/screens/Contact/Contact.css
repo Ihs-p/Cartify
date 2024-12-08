@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .contact-form {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .contact-info {
+    background-color: #2c2e30;
+    color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  .contact-info h3, .contact-info p, .contact-info a {
+    color: #fff;
+  }
+  .contact-info a:hover {
+    color: #ffc107;
+    text-decoration: underline;
+  }
